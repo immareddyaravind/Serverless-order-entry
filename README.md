@@ -45,7 +45,4 @@ Access-Control-Allow-Methods: POST
 ## Step 5: Test the Application
 
 Thankyou!
-Follow our blog here: https://amonkincloud.com/ \
-Follow my personal blog here:https://dev.to/yeshwanthlm/ \
-Follow us on Instagram: https://www.instagram.com/amonkincloud/ \
-For queries write to us at: amonkincloud@gmail.com 
+
