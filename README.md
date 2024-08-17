@@ -1,16 +1,16 @@
-# Serverless Registration Form
+# Serverless Order Placing Form
 
 ## Step 1: Create DynamoDB Table
 
 ```sh
-Table Name: registration-table
-Partition key: email
+Table Name: order-table
+Partition key: order
 
 ```
 
 ## Step 2: Create IAM Role for Lambda Function
 ```sh
-IAM Role Name: RegistrationFormRole
+IAM Role Name: OrderEntry-Role
 
 Permissions:
 1. CloudWatch Full Access
@@ -21,7 +21,7 @@ Permissions:
 ## Step 3: Create Lambda Function
 
 ```sh
-Function Name: registration-form-function
+Function Name: order-entry-function
 Runtime: Python 3.9
 
 ```
@@ -44,9 +44,7 @@ Access-Control-Allow-Methods: POST
 
 ## Step 5: Test the Application
 
-
-
-Follow our tutorials here: https://www.youtube.com/@amonkincloud/videos \
+Thankyou!
 Follow our blog here: https://amonkincloud.com/ \
 Follow my personal blog here:https://dev.to/yeshwanthlm/ \
 Follow us on Instagram: https://www.instagram.com/amonkincloud/ \
