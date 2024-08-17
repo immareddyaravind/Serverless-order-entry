@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WATERBALLS Order Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img  src="Images/WhatsApp Image 2024-08-17 at 19.42.02_6b4043e0.jpg" alt="WATERBALLS Logo">
+        </div>
+        <h1>Place Your Order</h1>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+
+            <label for="food">Food Items</label>
+            <textarea id="food" name="food" placeholder="Enter food items you want to order" required></textarea>
+
+            <label for="table">Table Number</label>
+            <input type="number" id="table" name="table" placeholder="Enter your table number" required>
+
+            <input type="submit" value="Submit Order">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

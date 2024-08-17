@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffd700; /* Yellow background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('Images/r89a-Hello-Waterballs-Patuli-Panipuri-Shop-Hygienic-Phuchka-Shop-picture-2023-04.jpg');
+    background-size: cover; /*Ensures the image covers the entire screen*/
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.logo img {
+    max-width: 60%;
+    height: auto;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #d32f2f; /* Red color matching the logo */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #d32f2f;
+}
+
+input[type="text"], input[type="tel"], input[type="number"], textarea {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+    transition: border-color 0.3s ease;
+    background-color: #fff8dc; /* Light yellow background for input fields */
+}
+
+input[type="text"]:focus, input[type="tel"]:focus, input[type="number"]:focus, textarea:focus {
+    border-color: #d32f2f;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+input[type="submit"] {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    background: #d32f2f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #b71c1c;
+}
